@@ -1,3 +1,22 @@
+const div = document.createElement("div");
+div.id = "quote-container";
+
+const h1 = document.createElement("h1");
+h1.innerText = "Random Quote Generator";
+
+const para = document.createElement("p");
+para.id = "quoteDisplay";
+para.innerText = "Click the button to see a quote!";
+
+const button = document.createElement("button");
+button.id = "new-quote";
+button.innerText = "New Quote";
+
+document.body.appendChild(div);
+div.appendChild(h1);
+div.appendChild(para);
+div.appendChild(button);
+
 const quotes = [
   "The greatest glory in living lies not in never falling, but in rising every time we fall. - Nelson Mandela",
   "The way to get started is to quit talking and begin doing. - Walt Disney",
@@ -12,6 +31,7 @@ const quotes = [
   "The only impossible journey is the one you never begin. - Tony Robbins",
   "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
 ];
+
 const quoteDisplay = document.getElementById("quoteDisplay");
 const newQuoteButton = document.getElementById("new-quote");
 

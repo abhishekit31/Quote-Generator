@@ -7,7 +7,7 @@ body{
     height: 100vh;
     margin: 0;
 }
-#quote-comtainer{
+#quote-container{
     background-color: #2a0e0e;
     border-radius: 20px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
@@ -18,7 +18,7 @@ body{
     transition: transform 0.3s ease;
 
 }
-#quote-comtainer:hover {
+#quote-container:hover {
     transform: translateY(-10px);
 }
 h1 {
