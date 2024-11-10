@@ -1,3 +1,3 @@
-![Project Output](image.png)
-![Project Output](image-1.png)
-![Project Output](image-2.png)
+![Project Output](./Images/image.png)
+![Project Output](./Images/image-1.png)
+![Project Output](./Images/image-2.png)
